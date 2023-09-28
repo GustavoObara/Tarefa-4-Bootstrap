@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Loja de Brinquedos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><strong>ToyShoope</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Produtos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Fale conosco</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Login</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Cadastrar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header></header>
+
+        <main class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="descricao-tab" data-bs-toggle="tab"
+                                        data-bs-target="#descricao-tab-pane" type="button" role="tab"
+                                        aria-controls="descricao-tab-pane" aria-selected="true">Descrição</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="photos-tab" data-bs-toggle="tab"
+                                        data-bs-target="#photos-tab-pane" type="button" role="tab"
+                                        aria-controls="photos-tab-pane" aria-selected="false">Fotos</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="coment-tab" data-bs-toggle="tab"
+                                        data-bs-target="#coment-tab-pane" type="button" role="tab"
+                                        aria-controls="coment-tab-pane" aria-selected="false">Comentários</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="video-tab" data-bs-toggle="tab"
+                                        data-bs-target="#video-tab-pane" type="button" role="tab"
+                                        aria-controls="video-tab-pane" aria-selected="false">Vídeo</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="descricao-tab-pane" role="tabpanel"
+                                    aria-labelledby="descricao-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="img/imagem1.jpeg" alt="Imagem do Produto" class="img-fluid">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Castelo da Barbie</h5>
+                                                    <p class="card-text">O Castelo da Barbie é o sonho de todas as princesas
+                                                        em miniatura! Com uma altura impressionante de 80 cm, este castelo
+                                                        em tons de rosa e branco é o local perfeito para aventuras
+                                                        encantadoras. Seus detalhes delicados incluem torres elegantes,
+                                                        janelas com vitrais coloridos e um jardim secreto nos fundos.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col-md-4">
+                                            <h6>Detalhes do Produto</h6>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul>
+                                                <li>Preço: R$ 99,99</li>
+                                                <li>Formas de Pagamento: Cartão de Crédito, Boleto</li>
+                                                <li>Quantidade em Estoque: 10 unidades</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="photos-tab-pane" role="tabpanel"
+                                    aria-labelledby="profile-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="card">
+                                                <img src="img/imagem1.jpeg" class="card-img-top" alt="Foto 1">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="card">
+                                                <img src="img/foto1.1.jpeg" class="card-img-top" alt="Foto 2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="card">
+                                                <img src="img/foto1.2.jpeg" class="card-img-top" alt="Foto 3">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="card">
+                                                <img src="img/foto1.3.jpeg" class="card-img-top" alt="Foto 4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="coment-tab-pane" role="tabpanel"
+                                    aria-labelledby="contact-tab" tabindex="0">
+                                    <div class="card mb-3">
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-md-2">
+                                                <img src="img/foto_usuario.png" alt="Usuário 1"
+                                                    class="img-fluid rounded-circle" style="width: 60px;">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Maria Clara</h5>
+                                                    <p class="card-text">Avaliação: ★★★★☆</p>
+                                                    <p class="card-text">Excelente produto! Estou muito satisfeito com a
+                                                        minha compra. Minha filha amou!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card mb-3">
+                                        <div class="row g-0 align-items-center">
+                                            <div class="col-md-2">
+                                                <img src="img/foto_usuario.png" alt="Usuário 2"
+                                                    class="img-fluid rounded-circle" style="width: 60px;">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Júlia</h5>
+                                                    <p class="card-text">Avaliação: ★★★★★</p>
+                                                    <p class="card-text">Produto incrível! Recomendo a todos.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="tab-pane fade" id="video-tab-pane" role="tabpanel" aria-labelledby="video-tab"
+                                    tabindex="0">
+                                    <div class="embed-responsive embed-responsive-16by9 embed-responsive-lg mx-auto"
+                                        style="width: 500px; height: 281px;">
+                                        <iframe width="500" height="290" src="https://www.youtube.com/embed/5zMIBO5KORY"
+                                            title="Comercial - Barbie: Casa, Carro e Piscina - Casa de Férias da Barbie (2009)"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
